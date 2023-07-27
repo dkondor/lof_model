@@ -1,6 +1,7 @@
 #!/usr/bin/fish
 # re-run simulations with 100 realizations,
 # using the original processing methodology
+# This script uses the Fish shell syntax: https://fishshell.com/
 
 # !! TODO: set the correct working directory !!
 cd /mnt/smallext/kondor

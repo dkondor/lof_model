@@ -24,5 +24,5 @@ Command line parameters:
 
 ## Analysis
 
-The script [lof_plots1.gp] contains commands for the [Gnuplot](http://gnuplot.info) plotting tool that run the simulation with the main parameters and create the main figures in our paper. The additional R script [lof_acf_simple.r] calculates ACFs in the case of noisy simulation runs.
+The script [lof_plots1.gp](lof_plots1.gp) contains commands for the [Gnuplot](http://gnuplot.info) plotting tool that run the simulation with the main parameters and create the main figures in our paper. The additional R script [lof_acf_simple.r](lof_acf_simple.r) calculates ACFs in the case of noisy simulation runs.
 
