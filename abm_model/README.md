@@ -4,7 +4,7 @@ Agent-based simulation of density-dependent conflict with landscape of fear effe
 
 ## Examples for the simulation
 
-Examples of a few cases are given below that were used to generate Fig. 2 in our paper. More simulation runs are in the script [lof_runs_rep.fsh](lof_runs_rep.fsh) that performs repeated realizations of the simulation and analysis of temporal patterns in the results, generating the main results in our paper.
+Examples of a few cases are given below that were used to generate Fig. 2 in our paper. More simulation runs are in the script [lof_runs_rep.fsh](lof_runs_rep.fsh) that performs repeated realizations of the simulation and analysis of temporal patterns in the results, generating the main results in our paper. These results are then analyzed with the script [lof_acf_rep_plot.r](lof_acf_rep_plot.r), creating the figures in the paper.
 
 The below commands are provided to be run in a standard UNIX (Linux, OSX) shell (such as `bash`). They require a `C++17` compiler such as a recent version of GCC or CLang (to use CLang, replace the `g++` commands with `clang++`). The code for creating images and videos (`spout2png.cpp`) uses the [Cairo](https://www.cairographics.org/) graphics libraries. [FFMPEG](https://ffmpeg.org/) is used for creating videos. Running the below code will require at least 8GB free memory.
 
