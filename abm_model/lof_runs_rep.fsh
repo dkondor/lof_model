@@ -90,7 +90,7 @@ end | $code_dir/rm -t $ncores
 
 date
 echo \n
-for R in 0.02 0.04 0.06 0.08 0.1
+for R in 0.01 0.02 0.04 0.06 0.08 0.1
 for S in 1
 set fnbase $outdir/res_G"$G"_C10_E"$E"_A"$A"_S"$S"_L"$L"_R$R
 echo Rscript --verbose --no-save acf_new_aggr_rep_orig.r $fnbase $N
@@ -140,7 +140,7 @@ end
 end | $code_dir/rm -t $ncores
 
 echo \n
-for R in 0.02 0.04 0.06 0.08 0.1
+for R in 0.01 0.02 0.04 0.06 0.08 0.1
 for S in 1
 set fnbase $outdir/res_G"$G"_C10_E"$E"_A"$A"_S"$S"_L"$L"_R$R
 echo Rscript --verbose --no-save acf_new_aggr_rep_lof.r $fnbase $N
